@@ -1,4 +1,5 @@
 # Contact info
+For any questions about the software, contact the main developer:
 Hando Tohver
 hando.tohver@ut.ee 
 
