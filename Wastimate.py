@@ -597,7 +597,7 @@ class Order:
         self.Direction = direction # Order for movement (default: "old")
         self.Crumbs = crumbs # Toggle for recording movement details
         
-        self.Centile = centile
+        self.Centile = centilpackage
         
         # Default criteria for movement based on inventory level of a specific nuclide
         Default_Criteria = {"region"   : "package",
