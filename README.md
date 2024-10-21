@@ -22,8 +22,8 @@ Includes mechanisms for applying criteria to waste processing, such as minimizin
 ### Waste Packages
 A waste package represents a discrete unit of radioactive material, with a defined mass and inventory of isotopes. For each package, the decay of radionuclides is modeled to account for changes in activity over time.
 #### Attributes
-* mass: The total mass of the waste package.
-* inventory: A dictionary containing isotopes as keys and their respective quantities (e.g., in curies or becquerels) as values.
+* Mass: The total mass of the waste package.
+* Inventory: A dictionary containing isotopes as keys and their respective quantities (e.g., in curies or becquerels) as values.
 * decay_chain: A flag that indicates whether or not the decay of parent isotopes into daughter products should be considered.
 Waste packages are the core objects being managed and processed throughout the simulation. Each package undergoes various transformations based on the orders assigned to the nodes it resides in.
 
