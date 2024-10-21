@@ -158,10 +158,10 @@ def CRAM16(A, n0, dt, rad_flag):
         return y * alpha0
 
 class Package:
-    def __init__(self, mass, inventory, mode="atoms", batches=1, radioactive=True, decay_chain=True, secular_equilibrium=None, initialize=None):
+    def __init__(self, Mass, Inventory, mode="atoms", batches=1, radioactive=True, decay_chain=True, secular_equilibrium=None, initialize=None):
         # Initializes a Package with Mass, Inventory, and optional parameters like radioactivity, decay_chain, and initialize.
-        self.Mass = mass
-        self.Inventory = inventory
+        self.Mass = Mass
+        self.Inventory = Inventory
         
         if batches == 1:
             self.batches = 1
