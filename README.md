@@ -10,6 +10,8 @@ Wastimate is a specialized Python-based framework designed for simulating, manag
 
 The code leverages object-oriented design principles, with core classes such as Node, Package, Order, and Universe to model the flow of radioactive materials and simulate the impact of various waste handling operations over time.
 
+NB! Wastimate requires decay chain data to run, place the OpenMC's decay chain data in the same folder as the .py. (Data that is formatted to suit Wastimate can be found here https://www.dropbox.com/scl/fi/zexn5i1fuke8u50thj7c2/decay_chains_endfb71.xml?rlkey=xsukcszkrpagt6skcv8ara47o&st=sbx4yi28&dl=0)
+
 ## Key Features
 * Models radioactive waste packages containing multiple isotopes. Each package can be initialized with specific inventory data (i.e., the amount of each radionuclide) and mass. The decay chains for each isotope can be modeled, taking into account half-lives and transformations into daughter isotopes.
 * Simulates activities such as waste sorting, packaging, conditioning, and transferring between different nodes (storage facilities, treatment plants, etc.). Each process is guided by defined orders that execute specific actions within the system.
