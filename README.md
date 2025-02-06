@@ -4,7 +4,7 @@ For any questions about the software, contact the main developer:
 Hando Tohver
 hando.tohver@ut.ee 
 
-# Wastimate
+# Wastimate 0.1.0
 
 Wastimate is a specialized Python-based framework designed for simulating, managing, and analyzing the behavior of radioactive waste over time. It focuses on simulating complex processes such as isotopic decay, waste sorting, conditioning, and transportation within a dynamic system of interconnected nodes. This tool can be used to assess long-term waste management strategies, ensure regulatory compliance, and optimize the handling of radioactive waste in facilities like nuclear power plants or waste repositories.
 
